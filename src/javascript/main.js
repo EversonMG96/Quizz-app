@@ -56,5 +56,7 @@ function starQuiz() {
 }
 
 function showQuest() {
-    
+    let currentQuestionIndex = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 }
