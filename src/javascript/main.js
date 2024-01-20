@@ -107,7 +107,10 @@ function selectAnswer(e) {
 }
 
 function handleNextButton() {
-    
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length) {
+        showQuestion();
+    }
 }
 
 nextButton.addEventListener("click", ()=> {
