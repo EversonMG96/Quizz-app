@@ -106,11 +106,15 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+function handleNextButton() {
+    
+}
+
 nextButton.addEventListener("click", ()=> {
     if(currentQuestionIndex < questions.length) {
        handleNextButton(); 
     }else {
-        
+        starQuiz();
     }
 });
 
