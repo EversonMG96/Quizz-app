@@ -42,7 +42,7 @@ const questions = [
 ];
 
 const questionElement = document.getElementById("question");
-const answerButton = document.getElementById("anser-buttons");
+const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
@@ -52,18 +52,20 @@ function starQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
-    showQueastion();
+    showQuestion();
 }
 
-function showQuest() {
-    let currentQuestionIndex = questions[currentQuestionIndex];
+function showQuestion() {
+    let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
     
-    currentQuestion.answers.forEach(answers => {
+    currentQuestion.answers.forEach(answer => {
        const button = document.createElement("button");
-       button.innerHTML = answers.text; 
+       button.innerHTML = answer.text; 
        button.classList.add("btn");
        answerButton.appendChild(button);
     });
 }
+
+starQuiz();
