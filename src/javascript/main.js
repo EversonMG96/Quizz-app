@@ -106,12 +106,16 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+function showScore(); {
+    
+}
+
 function handleNextButton() {
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length) {
         showQuestion();
     } else {
-        
+        showScore();
     }
 }
 
