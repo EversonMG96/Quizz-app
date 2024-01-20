@@ -77,3 +77,11 @@ body {
     box-shadow: #222 1px 3px ;
     transition: all ease-in 0.2s;
 }
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}

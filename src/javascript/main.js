@@ -90,7 +90,9 @@ function selectAnswer(e) {
     const isCorrect = selectedBtn.dataset.correct === "true";
 
     if(isCorrectsCorrect) {
-
+        selectedBtn.classList.add("correct");
+    } else {
+        selectedBtn.classList.add("incorrect");
     }
 }
 
