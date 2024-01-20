@@ -91,6 +91,7 @@ function selectAnswer(e) {
 
     if(isCorrect) {
         selectedBtn.classList.add("correct");
+        score++;
     } else {
         selectedBtn.classList.add("incorrect");
     }
@@ -104,5 +105,9 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
 }
+
+nextButton.addEventListener("click", ()=> {
+    
+});
 
 starQuiz();
