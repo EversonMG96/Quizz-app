@@ -94,12 +94,13 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
+    
     Array.from(answerButtons.children).forEach(button => {
-        if (button.dataset.correct === true){
+        
+        if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
         button.disable = true;
-
     });
     nextButton.style.display = "block";
 }
