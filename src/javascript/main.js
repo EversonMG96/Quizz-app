@@ -10,32 +10,32 @@ const questions = [
     },
     
     {
-        question: "Whitc is larget animal in the world?",
+        question: "Whitc is the smallest country in the world?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false}
+            {text: "Vatican City", correct: true},
+            {text: "Bhutan", correct: false},
+            {text: "Nepal", correct: false},
+            {text: "Shri Lanka", correct: false}
         ]
     },
 
     {
-        question: "Whitc is larget animal in the world?",
+        question: "Wich is the largest desert in the world?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false}
+            {text: "Khalahari", correct: false},
+            {text: "Gobi", correct: false},
+            {text: "Sahara", correct: false},
+            {text: "Antarctica", correct: true}
         ]
     },
 
     {
-        question: "Whitc is larget animal in the world?",
+        question: "Which is the amallest continent in the world?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false}
+            {text: "Asia", correct: false},
+            {text: "Australia", correct: true},
+            {text: "Artcic", correct: false},
+            {text: "Africa", correct: false}
         ]
     }
 
