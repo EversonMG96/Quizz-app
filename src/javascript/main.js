@@ -56,6 +56,7 @@ function starQuiz() {
 }
 
 function showQuestion() {
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -66,6 +67,10 @@ function showQuestion() {
        button.classList.add("btn");
        answerButton.appendChild(button);
     });
+}
+
+function resetState() {
+    
 }
 
 starQuiz();
