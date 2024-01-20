@@ -36,4 +36,16 @@ body {
     font-size: 18px;
     color: #001e4d;
     font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
 }
