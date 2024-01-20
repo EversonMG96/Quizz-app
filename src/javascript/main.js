@@ -52,5 +52,9 @@ function starQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
-    showQuestion();
+    showQueastion();
+}
+
+function showQuest() {
+    
 }
