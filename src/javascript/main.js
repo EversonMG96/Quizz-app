@@ -41,4 +41,6 @@ const questions = [
 
 ];
 
-const questionElement = document.getElementById("");
+const questionElement = document.getElementById("question");
+const answerButton = document.getElementById("anser-buttons");
+const nextButton = document.getElementById("next-btn");
