@@ -100,7 +100,7 @@ function selectAnswer(e) {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
-        button.disable = true;
+        button.disabled = true;
     });
     nextButton.style.display = "block";
 }
